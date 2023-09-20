@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  }
+  body {
+    font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+      Segoe UI Symbol, Noto Color Emoji;
+  }
+  h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Newsreader", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+.nav-brand,h5,.foot {
+    font-family:"Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  .show{
+    font-family: 'news-reader';
+  }
+  @media only screen and (min-width: 992px) {
+    .feature {
+      justify-content: flex-end;
+      margin-right: 50px;
+    }
+  }
+  .linear{
+    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  }
+  .colors{
+      background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: lighter;
+  }
+  .background_rgb{
+    background-color: rgb( 248, 249, 250);
+  }
+  .nav-brand:hover{
+    color: #2937f0 !important;}
+  
+    .navbar-nav > li.nav-item > a.nav-link.active{
+      color: #2937f0 !important;
+    }
+    .feature:hover{
+      color:#6e6f70 !important ;
+    }
+  .menu{
+    margin-top: 4px !important;
+  }
+  @media only screen and (max-width:800px){
+    .Showcase{
+      text-align: center;
+    }
+  .mbl-n{
+    display: none;
+  }}
+     @media only screen and (max-width:1025px) {
+      .imageround img{
+  width: 400px !important;
+  height: 400px !important;
+      } 
+    }
+  @media only screen and (max-width:426px) {
+   .view-m{
+    display: none;  
+   }
+  .imageround img{
+    width: 288px !important;
+    height: 288px !important;
+        }
+   .svg-badge img{
+   display:block !important;
+   margin-bottom: 30px !important;
+   }
+   .solution{
+    margin-top: 70px !important;
+   }
+  }
+  @media only screen and (min-width:427px){
+  }
